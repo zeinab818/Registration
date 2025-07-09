@@ -44,7 +44,7 @@ function addSignUp(){
         incorrect.classList.add("d-none");
         localStorage.setItem('currentUser', sign.name);
 
-        window.location.href = "home.html";
+        window.location.href = "index.html";
             
         
     }
@@ -105,7 +105,6 @@ function login(){
         password:passwordLoginInput.value
 
     }
-   
     var found = false;
 
     for (var i = 0; i < signUpList.length; i++) {
